@@ -15,7 +15,7 @@
 }
 
 .card {
-  width: 200px;
+  width: auto;
   padding: 1rem;
   background-color: lightgreen;
   border-radius: 10%;
