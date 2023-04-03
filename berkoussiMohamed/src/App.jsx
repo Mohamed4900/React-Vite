@@ -2,6 +2,8 @@ import './App.css'
 import MyTitle from "./components/MyTitle"
 import PokemonCard from "./components/PokemonCard"
 import { useState } from 'react';
+import { useEffect } from 'react';
+import NavBar from './components/NavBar';
 
 
 const pokemonList = [
@@ -36,11 +38,25 @@ function App() {
 
   const handleClick1 = () => {
     setIndex(pokemonIndex + 1)
+    if (pokemonList[pokemonIndex].name === "pikachu") {
+      alert("pika pikachu !!!");
+    }
   }
   const handleClick2 = () => {
     setIndex(pokemonIndex - 1)
+    if (pokemonList[pokemonIndex].name === "pikachu") {
+      alert("pika pikachu !!!");
+    }
   
   }
+
+  
+  useEffect (
+    () => {
+      console.log("Hello pokemon trainer :)");
+    },
+    []
+  );
 
     return (
 
