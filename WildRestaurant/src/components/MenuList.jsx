@@ -12,7 +12,7 @@ function MenuList( { foods }) {
         //   <p>{food.description}</p>
         //   <p>{food.price}</p>
         //   <img src={food.foodImage} />
-        // </div>
+        // </div> ou 
         <MenuItem food={food} />
         ))
       }

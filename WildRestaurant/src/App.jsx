@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import MenuList from './components/MenuList';
-import MenuItem from './components/MenuItem';
 
 function App() {
 const foodItems = [
