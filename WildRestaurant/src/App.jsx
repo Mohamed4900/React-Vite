@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import MenuList from './components/MenuList';
 
+
+
 function App() {
+
 const foodItems = [
   {
     itemName: "Caesar's Salad",
@@ -33,11 +36,17 @@ const foodItems = [
     isFavorite: false,
   },
 ];
+
   return (
+
     <div>
+
       <h1>Wild Restaurant Menu</h1>
+
       <MenuList foods={foodItems} />
+      
     </div>
+
   );
   };
 
